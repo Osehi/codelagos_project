@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+#header .top_header {
+    min-height:2px;
+    background:#02f455;
+    border-bottom:2px solid #f45302;
+    padding-top:2px;
+}
+
+#header .top_header .address {
+  /*  border-right:1px solid #5f3311; */
+}
+
+#header .top_header .address p {
+    font-size:12px;
+    padding-top:2px;
+    color:#f45302;
+    font-family:'Open Sans', sans-serif;
+    display:inline-block;
+}
+
+#header .top_header .phone p {
+    color: #f45302;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    display: inline-block;
+}
+#header .top_header .address i,
+#header .top_header .phone i {
+    padding: 3px 5px;
+    font-size: 15px;
+}
+#header .top_header .social_icon i {
+    padding: 0 5px;
+    color: #f45302;
+    font-size: 12px;
+    font-weight: 700;
+}
+#header .top_header .social_icon i:hover {
+    color: #f40253;
+}
+
+.floatleft {
+    float:left;
+   
+}
+
+section#contact  {
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+
+section#contacthead {
+    padding-top:9rem;
+}
+section#contacthead h1, h3 {
+    color: #22e68b;
+}
+
+section#contact label {
+    color:#22e68b;
+    font-weight:bold;
+}
+
+.support {
+    background-image: url(../img/lead.jpg);
+    background-size:cover;
+    /** background:linear-gradient(45deg, #96e2f5, #9f96f5, #96f5a9); */
+    background-position: center;
+    min-height: 650px;
+    position: relative;
+    
+} 
+
+.heading1 {
+    color: #d55950;
+    padding-top: 50px;
+    font-weight: 700px;
+    
+}
+
+.heading2 {
+    color: #d59b50;
+}
+
+footer {
+    background-color:#f40253;
+    color:#ccf402;
+   /* margin-top:3em;*/
+}
+
+footer h5,
+footer img {
+    margin-top:5em;
+    font-weight:bold;
+}
+
+footer address {
+    margin-top:5em;
+    margin-bottom:5em;
+    color:#ccf402;
+}
+
+footer ul {
+    margin-bottom:5em;
+}
+
+footer address strong {
+    color:#ccf402;
+    display:block;
+    padding-bottom:0.62em;
+}
+
+footer a {
+    font-weight:300;
+    color:#ccf402;
+
+}
+
+footer a:hover {
+    text-decoration:none;
+    color:#fff;
+}
+
+@media (max-width: 576px) {
+     .social_icon {
+        display:none;
+    }
+   
+    #header .top_header .phone i {
+    display: none;
+    
+}
+
+#header .top_header .phone p {
+display: none;
+
+}
+
+
+}
+
